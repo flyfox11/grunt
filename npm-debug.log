@@ -1,0 +1,469 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt-contrib-jshint',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.4
+4 verbose install initial load of D:\project\grunt\package.json
+5 warn package.json demo_grunt@1.0.0 No README data
+6 verbose installManyTop reading scoped package data from D:\project\grunt\node_modules\grunt\package.json
+7 verbose installManyTop reading scoped package data from D:\project\grunt\node_modules\grunt-contrib-concat\package.json
+8 verbose installManyTop reading scoped package data from D:\project\grunt\node_modules\grunt-contrib-connect\package.json
+9 verbose installManyTop reading scoped package data from D:\project\grunt\node_modules\grunt-contrib-sass\package.json
+10 verbose installManyTop reading scoped package data from D:\project\grunt\node_modules\grunt-contrib-uglify\package.json
+11 verbose readDependencies loading dependencies from D:\project\grunt\package.json
+12 silly cache add args [ 'grunt-contrib-jshint', null ]
+13 verbose cache add spec grunt-contrib-jshint
+14 silly cache add parsed spec Result {
+14 silly cache add   raw: 'grunt-contrib-jshint',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'grunt-contrib-jshint',
+14 silly cache add   rawSpec: '',
+14 silly cache add   spec: 'latest',
+14 silly cache add   type: 'tag' }
+15 silly addNamed grunt-contrib-jshint@latest
+16 verbose addNamed "latest" is being treated as a dist-tag for grunt-contrib-jshint
+17 info addNameTag [ 'grunt-contrib-jshint', 'latest' ]
+18 silly mapToRegistry name grunt-contrib-jshint
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry data Result {
+21 silly mapToRegistry   raw: 'grunt-contrib-jshint',
+21 silly mapToRegistry   scope: null,
+21 silly mapToRegistry   name: 'grunt-contrib-jshint',
+21 silly mapToRegistry   rawSpec: '',
+21 silly mapToRegistry   spec: 'latest',
+21 silly mapToRegistry   type: 'tag' }
+22 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-jshint
+23 verbose addNameTag registry:https://registry.npmjs.org/grunt-contrib-jshint not in flight; fetching
+24 verbose request uri https://registry.npmjs.org/grunt-contrib-jshint
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 10:47:47
+27 verbose request id 351739e518359c67
+28 verbose etag "COD3I5FE0LEI7B54XP8O7RKTV"
+29 http request GET https://registry.npmjs.org/grunt-contrib-jshint
+30 info retry will retry, error on last attempt: Error: read ECONNRESET
+31 info attempt registry request try #2 at 10:47:58
+32 verbose etag "COD3I5FE0LEI7B54XP8O7RKTV"
+33 http request GET https://registry.npmjs.org/grunt-contrib-jshint
+34 info retry will retry, error on last attempt: Error: read ECONNRESET
+35 info attempt registry request try #3 at 10:48:59
+36 verbose etag "COD3I5FE0LEI7B54XP8O7RKTV"
+37 http request GET https://registry.npmjs.org/grunt-contrib-jshint
+38 silly get cb [ 304, undefined ]
+39 verbose etag https://registry.npmjs.org/grunt-contrib-jshint from cache
+40 verbose get saving grunt-contrib-jshint to C:\Users\os-huzp\AppData\Roaming\npm-cache\registry.npmjs.org\grunt-contrib-jshint\.cache.json
+41 verbose correctMkdir C:\Users\os-huzp\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+42 silly addNameTag next cb for grunt-contrib-jshint with tag latest
+43 silly addNamed grunt-contrib-jshint@1.0.0
+44 verbose addNamed "1.0.0" is a plain semver version for grunt-contrib-jshint
+45 silly cache afterAdd grunt-contrib-jshint@1.0.0
+46 verbose afterAdd C:\Users\os-huzp\AppData\Roaming\npm-cache\grunt-contrib-jshint\1.0.0\package\package.json not in flight; writing
+47 verbose correctMkdir C:\Users\os-huzp\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+48 verbose afterAdd C:\Users\os-huzp\AppData\Roaming\npm-cache\grunt-contrib-jshint\1.0.0\package\package.json written
+49 silly install resolved [ { name: 'grunt-contrib-jshint',
+49 silly install resolved     description: 'Validate files with JSHint',
+49 silly install resolved     version: '1.0.0',
+49 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+49 silly install resolved     repository:
+49 silly install resolved      { type: 'git',
+49 silly install resolved        url: 'git+https://github.com/gruntjs/grunt-contrib-jshint.git' },
+49 silly install resolved     license: 'MIT',
+49 silly install resolved     engines: { node: '>=0.10.0' },
+49 silly install resolved     main: 'tasks/jshint.js',
+49 silly install resolved     scripts: { test: 'grunt test' },
+49 silly install resolved     dependencies: { chalk: '^1.1.1', hooker: '^0.2.3', jshint: '~2.9.1' },
+49 silly install resolved     devDependencies:
+49 silly install resolved      { grunt: '^0.4.5',
+49 silly install resolved        'grunt-cli': '^0.1.13',
+49 silly install resolved        'grunt-contrib-internal': '^0.4.12',
+49 silly install resolved        'grunt-contrib-nodeunit': '^0.4.1' },
+49 silly install resolved     peerDependencies: { grunt: '>=0.4.0' },
+49 silly install resolved     keywords: [ 'gruntplugin' ],
+49 silly install resolved     files: [ 'tasks' ],
+49 silly install resolved     appveyor_id: 'j04ik7qgx21ixyfw',
+49 silly install resolved     contributors:
+49 silly install resolved      [ [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object],
+49 silly install resolved        [Object] ],
+49 silly install resolved     gitHead: 'cb10837839289eed8bc1cc32e655528a51cde072',
+49 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-jshint/issues' },
+49 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-jshint',
+49 silly install resolved     _id: 'grunt-contrib-jshint@1.0.0',
+49 silly install resolved     _shasum: '30f405a51de656bfa6eb029b9a464b9fe02a402a',
+49 silly install resolved     _from: 'grunt-contrib-jshint@latest',
+49 silly install resolved     _npmVersion: '2.14.12',
+49 silly install resolved     _nodeVersion: '4.2.6',
+49 silly install resolved     _npmUser: { name: 'shama', email: 'kyle@dontkry.com' },
+49 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+49 silly install resolved     dist:
+49 silly install resolved      { shasum: '30f405a51de656bfa6eb029b9a464b9fe02a402a',
+49 silly install resolved        tarball: 'https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-1.0.0.tgz' },
+49 silly install resolved     _npmOperationalInternal:
+49 silly install resolved      { host: 'packages-6-west.internal.npmjs.com',
+49 silly install resolved        tmp: 'tmp/grunt-contrib-jshint-1.0.0.tgz_1455669571434_0.46170320152305067' },
+49 silly install resolved     directories: {},
+49 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-1.0.0.tgz',
+49 silly install resolved     readme: 'ERROR: No README data found!' } ]
+50 info install grunt-contrib-jshint@1.0.0 into D:\project\grunt
+51 info installOne grunt-contrib-jshint@1.0.0
+52 verbose installOne of grunt-contrib-jshint to D:\project\grunt not in flight; installing
+53 verbose correctMkdir C:\Users\os-huzp\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+54 verbose lock using C:\Users\os-huzp\AppData\Roaming\npm-cache\_locks\grunt-contrib-jshint-dce17b72407f5109.lock for D:\project\grunt\node_modules\grunt-contrib-jshint
+55 silly install write writing grunt-contrib-jshint 1.0.0 to D:\project\grunt\node_modules\grunt-contrib-jshint
+56 verbose unbuild node_modules\grunt-contrib-jshint
+57 silly gentlyRm D:\project\grunt\node_modules\grunt-contrib-jshint is being purged from base D:\project\grunt
+58 verbose gentlyRm don't care about contents; nuking D:\project\grunt\node_modules\grunt-contrib-jshint
+59 verbose tar unpack C:\Users\os-huzp\AppData\Roaming\npm-cache\grunt-contrib-jshint\1.0.0\package.tgz
+60 verbose tar unpacking to D:\project\grunt\node_modules\grunt-contrib-jshint
+61 silly gentlyRm D:\project\grunt\node_modules\grunt-contrib-jshint is being purged
+62 verbose gentlyRm don't care about contents; nuking D:\project\grunt\node_modules\grunt-contrib-jshint
+63 silly gunzTarPerm modes [ '777', '666' ]
+64 silly gunzTarPerm extractEntry package.json
+65 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+66 silly gunzTarPerm extractEntry README.md
+67 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+68 silly gunzTarPerm extractEntry CHANGELOG
+69 silly gunzTarPerm modified mode [ 'CHANGELOG', 420, 438 ]
+70 silly gunzTarPerm extractEntry tasks/jshint.js
+71 silly gunzTarPerm modified mode [ 'tasks/jshint.js', 420, 438 ]
+72 silly gunzTarPerm extractEntry tasks/lib/jshint.js
+73 silly gunzTarPerm modified mode [ 'tasks/lib/jshint.js', 420, 438 ]
+74 verbose write writing to D:\project\grunt\node_modules\grunt-contrib-jshint\package.json
+75 info preinstall grunt-contrib-jshint@1.0.0
+76 verbose readDependencies loading dependencies from D:\project\grunt\node_modules\grunt-contrib-jshint\package.json
+77 silly prepareForInstallMany adding chalk@^1.1.1 from grunt-contrib-jshint dependencies
+78 silly prepareForInstallMany adding hooker@^0.2.3 from grunt-contrib-jshint dependencies
+79 silly prepareForInstallMany adding jshint@~2.9.1 from grunt-contrib-jshint dependencies
+80 verbose readDependencies loading dependencies from D:\project\grunt\node_modules\grunt-contrib-jshint\package.json
+81 silly cache add args [ 'hooker@^0.2.3', null ]
+82 verbose cache add spec hooker@^0.2.3
+83 silly cache add parsed spec Result {
+83 silly cache add   raw: 'hooker@^0.2.3',
+83 silly cache add   scope: null,
+83 silly cache add   name: 'hooker',
+83 silly cache add   rawSpec: '^0.2.3',
+83 silly cache add   spec: '>=0.2.3 <0.3.0',
+83 silly cache add   type: 'range' }
+84 silly addNamed hooker@>=0.2.3 <0.3.0
+85 verbose addNamed ">=0.2.3 <0.3.0" is a valid semver range for hooker
+86 silly addNameRange { name: 'hooker', range: '>=0.2.3 <0.3.0', hasData: false }
+87 silly mapToRegistry name hooker
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry data Result {
+90 silly mapToRegistry   raw: 'hooker',
+90 silly mapToRegistry   scope: null,
+90 silly mapToRegistry   name: 'hooker',
+90 silly mapToRegistry   rawSpec: '',
+90 silly mapToRegistry   spec: 'latest',
+90 silly mapToRegistry   type: 'tag' }
+91 silly mapToRegistry uri https://registry.npmjs.org/hooker
+92 verbose addNameRange registry:https://registry.npmjs.org/hooker not in flight; fetching
+93 silly cache add args [ 'jshint@~2.9.1', null ]
+94 verbose cache add spec jshint@~2.9.1
+95 silly cache add parsed spec Result {
+95 silly cache add   raw: 'jshint@~2.9.1',
+95 silly cache add   scope: null,
+95 silly cache add   name: 'jshint',
+95 silly cache add   rawSpec: '~2.9.1',
+95 silly cache add   spec: '>=2.9.1 <2.10.0',
+95 silly cache add   type: 'range' }
+96 silly addNamed jshint@>=2.9.1 <2.10.0
+97 verbose addNamed ">=2.9.1 <2.10.0" is a valid semver range for jshint
+98 silly addNameRange { name: 'jshint', range: '>=2.9.1 <2.10.0', hasData: false }
+99 silly mapToRegistry name jshint
+100 silly mapToRegistry using default registry
+101 silly mapToRegistry registry https://registry.npmjs.org/
+102 silly mapToRegistry data Result {
+102 silly mapToRegistry   raw: 'jshint',
+102 silly mapToRegistry   scope: null,
+102 silly mapToRegistry   name: 'jshint',
+102 silly mapToRegistry   rawSpec: '',
+102 silly mapToRegistry   spec: 'latest',
+102 silly mapToRegistry   type: 'tag' }
+103 silly mapToRegistry uri https://registry.npmjs.org/jshint
+104 verbose addNameRange registry:https://registry.npmjs.org/jshint not in flight; fetching
+105 silly cache add args [ 'chalk@^1.1.1', null ]
+106 verbose cache add spec chalk@^1.1.1
+107 silly cache add parsed spec Result {
+107 silly cache add   raw: 'chalk@^1.1.1',
+107 silly cache add   scope: null,
+107 silly cache add   name: 'chalk',
+107 silly cache add   rawSpec: '^1.1.1',
+107 silly cache add   spec: '>=1.1.1 <2.0.0',
+107 silly cache add   type: 'range' }
+108 silly addNamed chalk@>=1.1.1 <2.0.0
+109 verbose addNamed ">=1.1.1 <2.0.0" is a valid semver range for chalk
+110 silly addNameRange { name: 'chalk', range: '>=1.1.1 <2.0.0', hasData: false }
+111 silly mapToRegistry name chalk
+112 silly mapToRegistry using default registry
+113 silly mapToRegistry registry https://registry.npmjs.org/
+114 silly mapToRegistry data Result {
+114 silly mapToRegistry   raw: 'chalk',
+114 silly mapToRegistry   scope: null,
+114 silly mapToRegistry   name: 'chalk',
+114 silly mapToRegistry   rawSpec: '',
+114 silly mapToRegistry   spec: 'latest',
+114 silly mapToRegistry   type: 'tag' }
+115 silly mapToRegistry uri https://registry.npmjs.org/chalk
+116 verbose addNameRange registry:https://registry.npmjs.org/chalk not in flight; fetching
+117 verbose request uri https://registry.npmjs.org/hooker
+118 verbose request no auth needed
+119 info attempt registry request try #1 at 10:49:00
+120 verbose etag "2JCWVZ8MZW2OPUAPOH5COKKIC"
+121 http request GET https://registry.npmjs.org/hooker
+122 verbose request uri https://registry.npmjs.org/jshint
+123 verbose request no auth needed
+124 info attempt registry request try #1 at 10:49:00
+125 verbose etag "CM968UI9WGSW5C0COF21VI4BH"
+126 http request GET https://registry.npmjs.org/jshint
+127 verbose request uri https://registry.npmjs.org/chalk
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 10:49:00
+130 verbose etag "CFX7J3CRG06BFCKOX6TJASR3"
+131 http request GET https://registry.npmjs.org/chalk
+132 info retry will retry, error on last attempt: Error: read ECONNRESET
+133 info retry will retry, error on last attempt: Error: read ECONNRESET
+134 info attempt registry request try #2 at 10:49:11
+135 verbose etag "2JCWVZ8MZW2OPUAPOH5COKKIC"
+136 http request GET https://registry.npmjs.org/hooker
+137 info retry will retry, error on last attempt: Error: read ECONNRESET
+138 info attempt registry request try #2 at 10:49:14
+139 verbose etag "CM968UI9WGSW5C0COF21VI4BH"
+140 http request GET https://registry.npmjs.org/jshint
+141 info retry will retry, error on last attempt: Error: read ECONNRESET
+142 info retry will retry, error on last attempt: Error: read ECONNRESET
+143 info attempt registry request try #2 at 10:49:35
+144 verbose etag "CFX7J3CRG06BFCKOX6TJASR3"
+145 http request GET https://registry.npmjs.org/chalk
+146 info retry will retry, error on last attempt: Error: read ECONNRESET
+147 info attempt registry request try #3 at 10:50:11
+148 verbose etag "2JCWVZ8MZW2OPUAPOH5COKKIC"
+149 http request GET https://registry.npmjs.org/hooker
+150 silly get cb [ 304, undefined ]
+151 verbose etag https://registry.npmjs.org/hooker from cache
+152 verbose get saving hooker to C:\Users\os-huzp\AppData\Roaming\npm-cache\registry.npmjs.org\hooker\.cache.json
+153 verbose correctMkdir C:\Users\os-huzp\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+154 silly addNameRange number 2 { name: 'hooker', range: '>=0.2.3 <0.3.0', hasData: true }
+155 silly addNameRange versions [ 'hooker', [ '0.2.3' ] ]
+156 silly addNamed hooker@0.2.3
+157 verbose addNamed "0.2.3" is a plain semver version for hooker
+158 silly cache afterAdd hooker@0.2.3
+159 verbose afterAdd C:\Users\os-huzp\AppData\Roaming\npm-cache\hooker\0.2.3\package\package.json not in flight; writing
+160 verbose correctMkdir C:\Users\os-huzp\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+161 verbose afterAdd C:\Users\os-huzp\AppData\Roaming\npm-cache\hooker\0.2.3\package\package.json written
+162 info attempt registry request try #3 at 10:50:14
+163 verbose etag "CM968UI9WGSW5C0COF21VI4BH"
+164 http request GET https://registry.npmjs.org/jshint
+165 silly get cb [ 304, undefined ]
+166 verbose etag https://registry.npmjs.org/jshint from cache
+167 verbose get saving jshint to C:\Users\os-huzp\AppData\Roaming\npm-cache\registry.npmjs.org\jshint\.cache.json
+168 verbose correctMkdir C:\Users\os-huzp\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+169 silly addNameRange number 2 { name: 'jshint', range: '>=2.9.1 <2.10.0', hasData: true }
+170 silly addNameRange versions [ 'jshint',
+170 silly addNameRange   [ '0.1.8',
+170 silly addNameRange     '0.1.9',
+170 silly addNameRange     '0.2.0',
+170 silly addNameRange     '0.2.1',
+170 silly addNameRange     '0.2.2',
+170 silly addNameRange     '0.2.3',
+170 silly addNameRange     '0.3.0',
+170 silly addNameRange     '0.3.1',
+170 silly addNameRange     '0.4.0',
+170 silly addNameRange     '0.5.0',
+170 silly addNameRange     '0.5.1',
+170 silly addNameRange     '0.5.2',
+170 silly addNameRange     '0.5.3',
+170 silly addNameRange     '0.5.4',
+170 silly addNameRange     '0.5.5',
+170 silly addNameRange     '0.5.6',
+170 silly addNameRange     '0.5.7',
+170 silly addNameRange     '0.5.8',
+170 silly addNameRange     '0.5.9',
+170 silly addNameRange     '0.6.0',
+170 silly addNameRange     '0.6.1',
+170 silly addNameRange     '0.6.2',
+170 silly addNameRange     '0.6.3',
+170 silly addNameRange     '0.7.0',
+170 silly addNameRange     '0.7.1',
+170 silly addNameRange     '0.7.2',
+170 silly addNameRange     '0.7.3',
+170 silly addNameRange     '0.8.0',
+170 silly addNameRange     '0.8.1',
+170 silly addNameRange     '0.8.2',
+170 silly addNameRange     '0.9.0',
+170 silly addNameRange     '0.9.1',
+170 silly addNameRange     '1.0.0',
+170 silly addNameRange     '1.1.0',
+170 silly addNameRange     '2.0.0',
+170 silly addNameRange     '2.0.1',
+170 silly addNameRange     '2.1.0',
+170 silly addNameRange     '2.1.1',
+170 silly addNameRange     '2.1.2',
+170 silly addNameRange     '2.1.3',
+170 silly addNameRange     '2.1.4',
+170 silly addNameRange     '2.1.5',
+170 silly addNameRange     '2.1.6',
+170 silly addNameRange     '2.1.7',
+170 silly addNameRange     '2.1.8',
+170 silly addNameRange     '2.1.9',
+170 silly addNameRange     '2.1.10',
+170 silly addNameRange     '2.1.11',
+170 silly addNameRange     '2.2.0',
+170 silly addNameRange     '2.3.0',
+170 silly addNameRange     '2.4.0',
+170 silly addNameRange     '2.4.1',
+170 silly addNameRange     '2.4.2',
+170 silly addNameRange     '2.4.3',
+170 silly addNameRange     '2.4.4',
+170 silly addNameRange     '2.5.0',
+170 silly addNameRange     '2.5.1',
+170 silly addNameRange     '2.5.2',
+170 silly addNameRange     '2.5.3',
+170 silly addNameRange     '2.5.4',
+170 silly addNameRange     '2.5.5',
+170 silly addNameRange     '2.5.6',
+170 silly addNameRange     '2.5.7',
+170 silly addNameRange     '2.5.8',
+170 silly addNameRange     '2.5.9',
+170 silly addNameRange     '2.5.10',
+170 silly addNameRange     '2.5.11',
+170 silly addNameRange     '2.6.0',
+170 silly addNameRange     '2.6.1',
+170 silly addNameRange     '2.6.2',
+170 silly addNameRange     '2.6.3',
+170 silly addNameRange     '2.7.0',
+170 silly addNameRange     '2.8.0',
+170 silly addNameRange     '2.9.1-rc1',
+170 silly addNameRange     '2.9.1-rc2',
+170 silly addNameRange     '2.9.1-rc3',
+170 silly addNameRange     '2.9.1',
+170 silly addNameRange     '2.9.2',
+170 silly addNameRange     '2.9.3',
+170 silly addNameRange     '2.9.4' ] ]
+171 silly addNamed jshint@2.9.4
+172 verbose addNamed "2.9.4" is a plain semver version for jshint
+173 silly mapToRegistry name jshint
+174 silly mapToRegistry using default registry
+175 silly mapToRegistry registry https://registry.npmjs.org/
+176 silly mapToRegistry data Result {
+176 silly mapToRegistry   raw: 'jshint',
+176 silly mapToRegistry   scope: null,
+176 silly mapToRegistry   name: 'jshint',
+176 silly mapToRegistry   rawSpec: '',
+176 silly mapToRegistry   spec: 'latest',
+176 silly mapToRegistry   type: 'tag' }
+177 silly mapToRegistry uri https://registry.npmjs.org/jshint
+178 verbose addRemoteTarball https://registry.npmjs.org/jshint/-/jshint-2.9.4.tgz not in flight; adding
+179 verbose addRemoteTarball [ 'https://registry.npmjs.org/jshint/-/jshint-2.9.4.tgz',
+179 verbose addRemoteTarball   '5e3ba97848d5290273db514aee47fe24cf592934' ]
+180 info retry fetch attempt 1 at 10:50:16
+181 info attempt registry request try #1 at 10:50:16
+182 http fetch GET https://registry.npmjs.org/jshint/-/jshint-2.9.4.tgz
+183 info retry will retry, error on last attempt: Error: read ECONNRESET
+184 info attempt registry request try #3 at 10:50:35
+185 verbose etag "CFX7J3CRG06BFCKOX6TJASR3"
+186 http request GET https://registry.npmjs.org/chalk
+187 silly get cb [ 304, undefined ]
+188 verbose etag https://registry.npmjs.org/chalk from cache
+189 verbose get saving chalk to C:\Users\os-huzp\AppData\Roaming\npm-cache\registry.npmjs.org\chalk\.cache.json
+190 verbose correctMkdir C:\Users\os-huzp\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+191 silly addNameRange number 2 { name: 'chalk', range: '>=1.1.1 <2.0.0', hasData: true }
+192 silly addNameRange versions [ 'chalk',
+192 silly addNameRange   [ '0.1.0',
+192 silly addNameRange     '0.1.1',
+192 silly addNameRange     '0.2.0',
+192 silly addNameRange     '0.2.1',
+192 silly addNameRange     '0.3.0',
+192 silly addNameRange     '0.4.0',
+192 silly addNameRange     '0.5.0',
+192 silly addNameRange     '0.5.1',
+192 silly addNameRange     '1.0.0',
+192 silly addNameRange     '1.1.0',
+192 silly addNameRange     '1.1.1',
+192 silly addNameRange     '1.1.2',
+192 silly addNameRange     '1.1.3' ] ]
+193 silly addNamed chalk@1.1.3
+194 verbose addNamed "1.1.3" is a plain semver version for chalk
+195 silly cache afterAdd chalk@1.1.3
+196 verbose afterAdd C:\Users\os-huzp\AppData\Roaming\npm-cache\chalk\1.1.3\package\package.json not in flight; writing
+197 verbose correctMkdir C:\Users\os-huzp\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+198 verbose afterAdd C:\Users\os-huzp\AppData\Roaming\npm-cache\chalk\1.1.3\package\package.json written
+199 info attempt registry request try #2 at 10:50:37
+200 http fetch GET https://registry.npmjs.org/jshint/-/jshint-2.9.4.tgz
+201 info retry will retry, error on last attempt: Error: read ECONNRESET
+202 info attempt registry request try #3 at 13:28:44
+203 http fetch GET https://registry.npmjs.org/jshint/-/jshint-2.9.4.tgz
+204 error fetch failed https://registry.npmjs.org/jshint/-/jshint-2.9.4.tgz
+205 warn retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+206 info retry fetch attempt 2 at 13:28:55
+207 info attempt registry request try #1 at 13:28:55
+208 http fetch GET https://registry.npmjs.org/jshint/-/jshint-2.9.4.tgz
+209 info retry will retry, error on last attempt: Error: read ECONNRESET
+210 info attempt registry request try #2 at 13:29:06
+211 http fetch GET https://registry.npmjs.org/jshint/-/jshint-2.9.4.tgz
+212 info retry will retry, error on last attempt: Error: read ECONNRESET
+213 info attempt registry request try #3 at 13:30:07
+214 http fetch GET https://registry.npmjs.org/jshint/-/jshint-2.9.4.tgz
+215 error fetch failed https://registry.npmjs.org/jshint/-/jshint-2.9.4.tgz
+216 warn retry will retry, error on last attempt: Error: read ECONNRESET
+217 info retry fetch attempt 3 at 13:31:08
+218 info attempt registry request try #1 at 13:31:08
+219 http fetch GET https://registry.npmjs.org/jshint/-/jshint-2.9.4.tgz
+220 info retry will retry, error on last attempt: Error: read ECONNRESET
+221 info attempt registry request try #2 at 13:31:21
+222 http fetch GET https://registry.npmjs.org/jshint/-/jshint-2.9.4.tgz
+223 info retry will retry, error on last attempt: Error: read ECONNRESET
+224 info attempt registry request try #3 at 13:32:28
+225 http fetch GET https://registry.npmjs.org/jshint/-/jshint-2.9.4.tgz
+226 error fetch failed https://registry.npmjs.org/jshint/-/jshint-2.9.4.tgz
+227 verbose about to build D:\project\grunt\node_modules\grunt-contrib-jshint
+228 verbose unlock done using C:\Users\os-huzp\AppData\Roaming\npm-cache\_locks\grunt-contrib-jshint-dce17b72407f5109.lock for D:\project\grunt\node_modules\grunt-contrib-jshint
+229 verbose stack Error: read ECONNRESET
+229 verbose stack     at exports._errnoException (util.js:870:11)
+229 verbose stack     at TLSWrap.onread (net.js:552:26)
+230 verbose cwd D:\project\grunt
+231 error Windows_NT 6.1.7601
+232 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt-contrib-jshint" "--save-dev"
+233 error node v4.4.4
+234 error npm  v2.15.1
+235 error code ECONNRESET
+236 error errno ECONNRESET
+237 error syscall read
+238 error network read ECONNRESET
+238 error network This is most likely not a problem with npm itself
+238 error network and is related to network connectivity.
+238 error network In most cases you are behind a proxy or have bad network settings.
+238 error network
+238 error network If you are behind a proxy, please make sure that the
+238 error network 'proxy' config is set properly.  See: 'npm help config'
+239 verbose exit [ 1, true ]
+240 verbose unbuild node_modules\grunt-contrib-jshint
+241 info preuninstall grunt-contrib-jshint@1.0.0
+242 info uninstall grunt-contrib-jshint@1.0.0
+243 verbose unbuild rmStuff grunt-contrib-jshint@1.0.0 from D:\project\grunt\node_modules
+244 info postuninstall grunt-contrib-jshint@1.0.0
+245 silly gentlyRm D:\project\grunt\node_modules\grunt-contrib-jshint is being purged from base D:\project\grunt
+246 verbose gentlyRm don't care about contents; nuking D:\project\grunt\node_modules\grunt-contrib-jshint
+247 silly vacuum-fs purging D:\project\grunt\node_modules\grunt-contrib-jshint
+248 silly vacuum-fs quitting because other entries in D:\project\grunt\node_modules
