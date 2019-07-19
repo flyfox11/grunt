@@ -1,6 +1,6 @@
 {
   "name": "demo_grunt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this is for study grunt project!",
   "main": "index.js",
   "scripts": {
